@@ -1,0 +1,533 @@
+body{
+    background: url(img/wallpic4.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -opera-background-size: cover;     /* Opera*/
+    background-size: cover;  /* Generic*/
+	}
+	
+#wrap{
+	height: 700px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 1px 1px 20px 1px gray;
+	background: #f4ecf3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#banner{
+	height: 200px;
+	width: 900px;
+	margin-left: -1px;
+	margin-top: -1px;
+	
+	}
+#header{
+	height: 200px;
+	width: 806px;
+	margin-left: -1px;
+	margin-top: -1px;
+	z-index: -1;
+	}
+#navpanel{
+	height: 27px;
+	width: 510px;
+	margin-top: -50px;
+	margin-left: 320px;
+	position: absolute;
+	}
+#nav{
+	height: 27px;
+	width: 100px;
+	margin-top: -1px;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+	font: 18 Palatino Linotype;
+	font-weight: bold;
+	z-index: 100;
+	}
+a{
+	text-decoration: none;
+	color: black;
+	}
+a:hover{
+	color: blue;
+	}
+#nav:hover{
+	color: blue;
+	height: 27px;
+	width: 100px;
+	border: solid 1;
+	}
+#slide{
+	height: 250px;
+	width: 788px;
+	border: double 5px #EE339E;
+	margin-left: 1px;
+	margin-top: -3px;
+	}
+#homedisp{
+	height: 125px;
+	width: 800px;
+	padding-top: 5px;
+	text-align: center;
+	font: 25 Monotype Corsiva;
+	color: #EE339E;
+	box-shadow: 1px 0px 15px 0px gray;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#avail{
+	text-align: left;
+	font: 18 Palatino Linotype;
+	color: black;
+	margin-left: 50px;
+	margin-top: 20px;
+	}
+#footnav{
+	height: 70px;
+	width: 800px;
+	margin-top: 30px;
+	text-align: center;
+	font: 12 Palatino Linotype;
+        color: black;
+	border-top: solid 1;
+	border-color: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+#decor{
+	height: 50px;
+	width: 60px;
+	}
+#decor1{
+	margin-left: 50px;
+	margin-top: 10px;
+	position: absolute;
+	}
+#decor2{
+	margin-left: 690px;
+	margin-top: -107px;
+	position: absolute;
+	}
+#orderlink{
+	font: 19 Monotype Corsiva;
+	margin-left: 10px;
+	}
+#order{
+	font: 20 Monotype Corsiva;
+	font-weight: bold;
+	color: #EE339E;
+	}
+/**==============================ABOUT US===========================**/
+#aboutwrap{
+	height: 600px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 1px 1px 20px 1px gray;
+	background: #f4ecf3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#aboutfootnav{
+	height: 30px;
+	width: 800px;
+	margin-top: 0px;
+	text-align: center;
+	font: 12 Palatino Linotype;
+	border-top: solid 1;
+	border-color: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+#aboutus{
+	height: 350px;
+	width: 760px;
+	margin-left: 20px;
+	}
+#about{
+	margin-top: 10px;
+	 font: 25 Palatino Linotype;
+	 font-weight: bold;
+	 color: pink;
+	}
+#aboutdisc{
+	text-align: justify;
+	box-shadow: 0px 0px 15px 0px gray;
+	height: 250px;
+	padding-top: 10px;
+	margin-top: 10px;
+	}
+#bb{
+	height: 200px;
+	width: 200px;
+	margin-left: 5px;
+	border-radius: 5px;
+	}
+#text{
+	height: 220px;
+	width: 545px;
+	margin-left: 207px;
+	margin-top: -202px;
+	font: 18 Palatino Linotype;
+	}
+
+#aboutwrapss{
+	height: 858px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 1px 1px 20px 1px gray;
+	background: #f4ecf3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#aboutfootnavss{
+	height: 80px;
+	width: 800px;
+	margin-top: 0px;
+	text-align: center;
+	font: 12 Palatino Linotype;
+	border-top: solid 1;
+	border-color: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+
+
+/**===================ABOUT US======================**/
+
+/**===================GALLERY=======================**/
+#galbord{
+	text-align: justify;
+	border-radius: 10px;
+	height: 250px;
+	padding-top: 10px;
+	margin-top: 10px;
+	box-shadow: 1px 1px 15px 1px pink;
+	}
+#products{
+	height: 180px;
+	width: 300px;
+	box-shadow: 1px 1px 15px 1px gray;
+	margin-top: 15px;
+	margin-left: 60px;
+	border-radius: 5px;
+	}
+#proddisc{
+	height: 25px;
+	width: 300px;
+	font: 22 Monotype corsiva;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 60px;
+	color: black;
+	font-weight: bold;
+	}
+#prod1{
+	height: 180px;
+	width: 300px;
+	border-radius: 5px;
+	}
+#establish{
+	height: 180px;
+	width: 300px;
+	box-shadow: 1px 1px 15px 1px gray;
+	margin-top: -210px;
+	margin-left: 400px;
+	color: blue;
+	border-radius: 5px;
+	}
+#establishdisc{
+	height: 25px;
+	width: 300px;
+	margin-left: 400px;
+	font: 22 Monotype corsiva;
+	text-align: center;
+	margin-top: 5px;
+	color: black;
+	font-weight: bold;
+	}
+#est1{
+	height: 180px;
+	width: 300px;
+	border-radius: 5px;
+	}
+#products:hover{
+	opacity: .6;
+	}
+#establish:hover{
+	opacity: .6;
+	}
+#gallerypic{
+	height: 200px;
+	width: 200px;
+	
+	opacity: 5;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+	}
+#gallerypic:hover{
+	opacity: 5;
+    -webkit-transform: scale(1.9,1.9);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+	box-shadow: 0px 0px 10px 1px black;
+	}
+#bord{
+	position: absolute;
+	height: 200px;
+	margin-top: -25px;
+	margin-left: -10px;
+	}
+/**==========================GALLERY-PRODUCTS===================**/
+#galprodwrap{
+	height: 980px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 1px 1px 20px 1px gray;
+	background: #f4ecf3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#galprodfootnav{
+	height: 45px;
+	width: 800px;
+	margin-top: 180px;
+	text-align: center;
+	font: 12 Palatino Linotype;
+	border-top: solid 1;
+	border-color: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+#galprodbord{
+	text-align: justify;
+	border-radius: 10px;
+	height: 785px;
+	padding-top: 20px;
+	margin-top: 10px;
+	box-shadow: 1px 1px 15px 1px pink;
+	}
+#p1{
+	height: 200px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 15px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+#p2{
+	height: 200px;
+	width: 200px;
+	margin-left: 280px;
+	margin-top: -206px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+#p3{
+	height: 200px;
+	width: 200px;
+	margin-left: 510px;
+	margin-top: -206px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+#p4{
+	height: 200px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 15px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+#p5{
+	height: 200px;
+	width: 200px;
+	margin-left: 280px;
+	margin-top: -206px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+#p6{
+	height: 200px;
+	width: 200px;
+	margin-left: 510px;
+	margin-top: -206px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+#p7{
+	height: 200px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 15px;
+	border: double 3 black;
+	box-shadow: 0px 0px 10px 0px #ED329D;
+	}
+/**==========================GALLERY-PRODUCTS===================**/
+
+/**==========================GALLERY-ESTABLISHMENT===================**/
+#galestwrap{
+	height: 770px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 1px 1px 20px 1px gray;
+	background: #f4ecf3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#galestfootnav{
+	height: 45px;
+	width: 800px;
+	margin-top: 225px;
+	text-align: center;
+	font: 12 Palatino Linotype;
+	border-top: solid 1;
+	border-color: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+#galestbord{
+	text-align: justify;
+	border-radius: 10px;
+	height: 480px;
+	padding-top: 10px;
+	margin-top: 10px;
+	box-shadow: 1px 1px 15px 1px pink;
+	}
+
+/**==========================GALLERY-ESTABLISHMENT===================**/
+
+
+/**==========================CONTACT-US===================**/
+#contactwrap{
+	height: 1600px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 1px 1px 20px 1px gray;
+	background: #f4ecf3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#contactfootnav{
+	height: 45px;
+	width: 800px;
+	margin-top: 30px;
+	text-align: center;
+	font: 12 Palatino Linotype;
+	border-top: solid 1;
+	border-color: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+#galestbords{
+	text-align: justify;
+	border-radius: 10px;
+	height: 350px;
+	padding-top: 10px;
+	margin-top: 2px;
+	box-shadow: 1px 1px 10px 1px pink;
+	}
+#tofus{
+	font: 25 Palatino Linotype;
+	font-weight: bold;
+	height: 30px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 45px;
+	}
+#service{
+	font: 16 Palatino Linotype;
+	height: 130px;
+	width: 700px;
+	margin-left: 45px;
+	margin-top: -10px;
+	text-align: justify;
+	box-shadow: 0px 10px 10px 0px gray;
+	padding-right: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#contactform{
+	height: 1200px;
+	width: 710px;
+	margin-left: 45px;
+	margin-top: -50px;
+	box-shadow: 0px 10px 15px 0px black;
+	}
+
+/**==========================CONTACT-US===================**/
+
+/**==========================DROPDOWN-MENU===================**/
+#navdrop{
+	position: relative;
+	z-index: 100;
+	list-style: none;
+	margin: 0;
+	}
+#drop1{
+	list-style: none;
+	margin-left: -20px;
+	margin-top: -2px;
+	}
+#drop2{
+	list-style: none;
+	margin-left: -30px;
+	}
+#droplist{
+	position: relative;
+	float: left;
+	margin-left: -120px;
+	margin-top: 28px;
+	box-shadow: 0px 5px 10px 0px white;
+	width: 100px;
+	background: #EE339E;
+	visibility: hidden;
+	z-index: 99;
+	height: 60px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+#nav1{
+	height: 27px;
+	width: 120px;
+	margin-top: -1px;
+	float: left;
+	margin-left: 2px;
+	text-align: center;
+	font: 18 Palatino Linotype;
+	font-weight: bold;
+	}
+#nav1:hover{
+	color: white;
+	height: 27px;
+	width: 120px;
+	border: solid 1;
+	}
+#navdrop:hover #droplist{
+	visibility: visible;
+	display: block;
+	}
+/**==========================DROPDOWN-MENU===================**/
